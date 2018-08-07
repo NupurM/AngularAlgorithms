@@ -1,0 +1,11 @@
+<section>
+    <header>
+        <h2>{{sectionTitle}}</h2>
+        <h1>{{counter}}</h1>
+    </header>
+    <form ng-if="counter">
+        <button type="button" id="increment" (click)="counter=counter+1">Increment</button>
+        <button type="button" id="decrement" (click)="counter=counter-1">Decrement</button>
+        <button type="reset" id="reset" (click)="counter=0">Reset</button>
+    </form>
+</section>
