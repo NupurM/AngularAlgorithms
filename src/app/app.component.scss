@@ -9,11 +9,24 @@ header {
     }
 }
 
+.wrapper {
+    overflow: auto;
+}
+
+section {
+    width: 32%;
+    float: left;
+    border-color: black;
+    border-width: 3px;
+    border-style: double;
+    margin: 1%;
+    text-align: center;
+}
+
 footer {
     text-align: center;
-    padding: 20px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
+    padding: 20px; // position: absolute;
+    // bottom: 0;
+    // left: 50%;
+    // transform: translate(-50%, 0);
 }

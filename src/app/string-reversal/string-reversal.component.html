@@ -1,0 +1,12 @@
+<header>
+  <h2>{{sectionTitle}}</h2>
+</header>
+<form (ngSubmit)="reverse(inputString.value)">
+  <label for="inputString">Enter a string:</label>
+  <input #inputString id="inputString" type="text" maxlength="50" size="50" />
+  <br/>
+  <br/>
+  <button type="submit">Reverse</button>
+  <button type="reset" (click)="reversedString='\\____/'">Reset</button>
+  <h1>{{reversedString}}</h1>
+</form>
