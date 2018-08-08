@@ -1,0 +1,14 @@
+<header>
+  <h2>{{sectionTitle}}</h2>
+</header>
+<p>Given the array:
+  <strong>{{givenArray}}</strong>
+</p>
+<form>
+  <label>Enter a number to search:</label>
+  <input #x type="number" min="0" max="10" size="3" value="3">
+  <br/>
+  <br/>
+  <button type="submit" (click)="search(x.value)">Search</button>
+</form>
+<h3>Found at position: 2</h3>
