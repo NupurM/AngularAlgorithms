@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular Algorithms';
-  description = 'Algorithems written in TypeScript and displayed using the Angular Framework';
+  description = 'Algorithms written in TypeScript and displayed using the Angular Framework';
 }
