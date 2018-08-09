@@ -1,12 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule} from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { CounterComponent } from './counter/counter.component';
 import { StringReversalComponent } from './string-reversal/string-reversal.component';
 import { BinarySearchComponent } from './binary-search/binary-search.component';
+import { ApiService } from './api.service';
 
 
 @NgModule({
@@ -18,9 +19,10 @@ import { BinarySearchComponent } from './binary-search/binary-search.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
