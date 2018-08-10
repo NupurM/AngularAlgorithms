@@ -1,6 +1,6 @@
 <header>
     <h2>{{sectionTitle}}</h2>
-    <h1>{{counter}}</h1>
+    <h1 id="counterValue">{{counter}}</h1>
 </header>
 <form ng-if="counter">
     <button type="button" id="increment" (click)="counter=counter+1">Increment</button>
