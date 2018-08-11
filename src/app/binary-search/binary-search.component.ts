@@ -11,7 +11,7 @@ export class BinarySearchComponent implements OnInit {
   sectionTitle = 'Binary Search';
   givenArray = [1, 3, 4, 5, 7, 8, 9];
   xindex: number;
-  message = '////_ ////';
+  message = '/////_ /////';
 
   constructor(private _apiService: ApiService) {
   }

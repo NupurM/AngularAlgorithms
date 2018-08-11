@@ -1,0 +1,15 @@
+header {
+    height: 200px;
+    img {
+        position: absolute; //Position from the parent element, on its own plane
+    }
+}
+
+.align-center {
+    text-align: center;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.2rem
+}

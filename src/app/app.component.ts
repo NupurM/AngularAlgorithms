@@ -5,7 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'Angular Algorithms';
-  description = 'Algorithms written in TypeScript and displayed using the Angular Framework';
-}
+export class AppComponent { }
