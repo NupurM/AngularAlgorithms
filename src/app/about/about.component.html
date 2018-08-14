@@ -1,3 +1,172 @@
-<p style="text-align:center;">
-  Description coming up next.
-</p>
+<table>
+  <tr>
+    <th>Technology</th>
+    <th>Feature</th>
+    <th>Description</th>
+  </tr>
+  <!-- Start Azure -->
+  <tr>
+    <th rowspan="3">Azure</th>
+    <td>Web App + API App</td>
+    <td>
+      <ul>
+        <li>Created a Web App to host the Angular application</li>
+        <li>Created an API App to host the C# API application</li>
+        <li>Created a resource group and a service plan to keep these components together</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Continuous Integration (CD/CI)</td>
+    <td>
+      <ul>
+        <li>Connected to the GIT repository</li>
+        <li>Automatically pulls the latest code after every commit</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Continuous Deploy (CD/CI)</td>
+    <td>
+      <ul>
+        <li>Build and Deploy using Kudu Script</li>
+        <li>Install NPM packages on the Azure server</li>
+        <li>Create a producion build in the repository/dist folder on Azure</li>
+        <li>Deploy files from repository/dist to tthe deployments folder on Azure</li>
+      </ul>
+    </td>
+  </tr>
+  <!-- End Azure -->
+  <!-- Start Testing -->
+  <tr>
+    <th rowspan="2">Testing</th>
+    <td>Jasmine Unit Tests</td>
+    <td>
+      <ul>
+        <li>Created and modified the Jasmine unit tests</li>
+        <li>Added dependency modules</li>
+        <li>Tested HTML elements and variable values</li>
+        <li>Tested function inputs and outputs</li>
+        <li>Command to run tests: ng test</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Protractor End-to-End Tests</td>
+    <td>
+      <ul>
+        <li>Created and modified the Protractor tests</li>
+        <li>Tested sequential actions and checked the values along the way</li>
+        <li>Command to run tests: ng e2e</li>
+      </ul>
+    </td>
+  </tr>
+  <!-- End Testing -->
+  <!-- Start .NET Core -->
+  <tr>
+    <th rowspan="2">.NET Core</th>
+    <td>RESTful Web API</td>
+    <td>
+      <ul>
+        <li>Created a .NET Core application using Visual Studio 2017</li>
+        <li>Created an API to get the user input and return the result</li>
+        <li>Implemented GET, POST and DELETE methods</li>
+        <li>Implemented attribute routing</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>CORS - Cross Origin Resource Sharing</td>
+    <td>
+      <ul>
+        <li>Allowed requests from other domains</li>
+        <li>Added Access-Control-Allow-Origin in the customHeader in the Web.config file</li>
+      </ul>
+    </td>
+  </tr>
+  <!-- End .NET Core -->
+  <!-- Start Styling -->
+  <tr>
+    <th rowspan="2">Styling</th>
+    <td>SCSS</td>
+    <td>
+      <ul>
+        <li>Created a global variables.scss file to store custom solors and styles</li>
+        <li>Used @import to import the variables in the required components</li>
+        <li>Used nesting for styling elements within a context like link:hover, tables</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Bootstrap 4</td>
+    <td>
+      <ul>
+        <li>Coming up next</li>
+      </ul>
+    </td>
+  </tr>
+  <!-- End Styling -->
+  <!-- Start Performance -->
+  <tr>
+    <th rowspan="3">Performance</th>
+    <td>Compress Images</td>
+    <td>
+      <ul>
+        <li>The images are resized and then compressed using
+          <a href="http://resizeimage.net/">resizeimage.net</a>
+        </li>
+        <li>Image file compressed from 139 kb to 15 kb</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Webpack</td>
+    <td>
+      <ul>
+        <li>Compiling and transpiling TypeScript and SCSS</li>
+        <li>Bundling and minifying JavaScript and CSS files</li>
+        <li>Creating production builds</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Search Engine Optimization (SEO)</td>
+    <td>
+      <ul>
+        <li>Added a title and description Open Graph meta tag</li>
+        <li>Added a thumbnail image for link sharing</li>
+      </ul>
+    </td>
+  </tr>
+  <!-- End Performance -->
+  <!-- Start Angular -->
+  <tr>
+    <th rowspan="5">Angular</th>
+    <td>Routing</td>
+    <td>
+      <ul>
+        <li>Created an app-routing module</li>
+        <li>Added default route, page not found route</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Services</td>
+    <td>
+      <ul>
+        <li>Created an HTTP service that makes calls to the .NET Core RESTful Web API</li>
+        <li>Service returns an Observable to the calling function</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Components</td>
+    <td>
+      <ul>
+        <li>The app is modularized into small components for easy maintenance</li>
+        <li>Some components are reused from previous projects</li>
+      </ul>
+    </td>
+  </tr>
+  <!-- End Angular -->
+</table>

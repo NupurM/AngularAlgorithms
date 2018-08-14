@@ -1,14 +1,13 @@
+@import "~variables.scss";
 .wrapper {
     overflow: auto;
 }
 
 section {
-    width: 30%;
+    border: $DoubleBorder;
     float: left;
-    border-color: black;
-    border-width: 3px;
-    border-style: double;
     margin: 1%;
     padding: 5px;
     text-align: center;
+    width: 30%;
 }

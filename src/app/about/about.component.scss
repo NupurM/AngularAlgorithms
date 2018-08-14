@@ -1,0 +1,15 @@
+@import"~variables.scss";
+table {
+    color: $DefaultColor;
+    width: 95%;
+    margin: auto;
+    tr,
+    td,
+    th {
+        border: $DefaultBorder;
+    }
+
+    td {
+        padding-left: 1rem;
+    }
+}

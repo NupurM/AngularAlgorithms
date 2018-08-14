@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { StringReversalComponent } from './string-reversal/string-reversal.component';
 
 import { ApiService } from './api.service';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ApiService } from './api.service';
     HeaderComponent,
     HomeComponent,
     StringReversalComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     AppRoutingModule,

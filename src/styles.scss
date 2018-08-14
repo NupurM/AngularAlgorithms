@@ -1,13 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import "./variables.scss";
 a {
-    color: #8AA055;
-}
-
-a:hover {
-    /* color: #596644;
-    color: #7b8e4b; */
-    color: #68774f;
+    color: $PrimaryGreen;
+    :hover {
+        color: $DarkGreen;
+    }
 }
 
 button {
