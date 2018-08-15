@@ -1,4 +1,9 @@
-# AngularAlgorithms
+# Angular Algorithms
+
+See this site up and running at <a href="https://nupurs-demo2.azurewebsites.net/" target="_blank">nupurs-demo2.azurewebsites.net</a>.  
+Check out the site's <a href="https://nupurs-demo2.azurewebsites.net/#/about" target="_blank">About</a> page for more details.
+
+## Project creation
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
