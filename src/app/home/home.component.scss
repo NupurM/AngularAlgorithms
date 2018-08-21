@@ -1,13 +1,27 @@
 @import "~variables.scss";
-.wrapper {
-    overflow: auto;
+@media (max-width: 768px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
+    }
+    section {
+        border: $DoubleBorder;
+        margin: 1rem 0;
+        padding: .5rem;
+        text-align: center;
+    }
 }
 
-section {
-    border: $DoubleBorder;
-    float: left;
-    margin: 1%;
-    padding: 5px;
-    text-align: center;
-    width: 30%;
+@media (min-width: 768px) {
+    .wrapper {
+        display: flex;
+        justify-content: space-between
+    }
+    section {
+        border: $DoubleBorder;
+        padding: .5rem;
+        text-align: center;
+        flex-basis: 32%;
+    }
 }

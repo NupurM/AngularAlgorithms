@@ -1,17 +1,51 @@
-header {
-    height: 200px;
-    img {
-        position: absolute; //Position from the parent element, on its own plane
-    }
+.logo {
+    max-width: 250px;
 }
 
-.align-center {
+.title {
     text-align: center;
 }
 
 .navbar {
+    display: flex;
+    justify-content: flex-end;
     a {
-        margin: 0 1rem;
-        font-size: 1.2rem
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo {
+        order: 1;
+        flex-basis: 20%;
+    }
+    .title {
+        flex-basis: 100%;
+        order: 3;
+    }
+    .navbar {
+        flex-basis: 80%;
+        order: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        padding: 1rem 0;
+    }
+    .logo {
+        flex: 1;
+    }
+    .title {
+        flex: 3;
+    }
+    .navbar {
+        flex: 1;
     }
 }
