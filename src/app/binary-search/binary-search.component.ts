@@ -22,7 +22,7 @@ export class BinarySearchComponent implements OnInit {
   search(x: number) {
     this._apiService.binarySearch(x)
       .subscribe(data => {
-        this.xindex = data;
+        this.xindex = data + 1;
         this.message = x + ' was found at positon ' + this.xindex;
       });
   }
